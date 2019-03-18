@@ -1,0 +1,22 @@
+{
+    "name": "phpcodex/logging",
+    "description": "Application Logging",
+    "keywords": ["php", "Logging"],
+    "type": "project",
+    "require": {
+	"php": ">=5.6",
+        "phpunit/phpunit": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpcodex\\Logging\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
